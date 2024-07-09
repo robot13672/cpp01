@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  ikhristi <ikhristi@student.42wolfsburg    +#+  +:+       +#+        */
+/*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/09 16:24:26 by  ikhristi         #+#    #+#             */
-/*   Updated: 2024/06/10 15:39:37 by  ikhristi        ###   ########.fr       */
+/*   Updated: 2024/07/09 15:15:40 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

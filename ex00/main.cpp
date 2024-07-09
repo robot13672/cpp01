@@ -6,7 +6,7 @@
 /*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/03 15:42:27 by khristi@stu       #+#    #+#             */
-/*   Updated: 2024/06/03 15:55:57 by khristi@stu      ###   ########.fr       */
+/*   Updated: 2024/07/09 14:45:49 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,9 @@
 int main()
 {
     Zombie *zombie1 = new Zombie();
-    zombie1 = zombie1->newZombie("New Zombie");
+    Zombie *zombie2 = zombie1->newZombie("New Zombie");
     zombie1->randomChump("Random Champ");
     delete zombie1;
+    delete zombie2;
     return 0;
 }
