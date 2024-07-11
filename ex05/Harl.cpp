@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By:  ikhristi <ikhristi@student.42wolfsburg    +#+  +:+       +#+        */
+/*   By: khristi@student.42wolfsburg.de <ikhrist    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/10 16:15:43 by  ikhristi         #+#    #+#             */
-/*   Updated: 2024/06/10 17:05:02 by  ikhristi        ###   ########.fr       */
+/*   Updated: 2024/07/11 12:15:44 by khristi@stu      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,8 @@ void    Harl::error(void)
     std::cout << "Error message." << std::endl;
 }
 
-void Harl::complain(std::string level) {
+void Harl::complain(std::string level) 
+{
     void (Harl::*complaints[4])(void) = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };
     std::string levels[4] = { "DEBUG", "INFO", "WARNING", "ERROR" };
 
